@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --co-orange: #ec7c0d;
+  --co-yellow: #f1aa08;
+  --ink:       #080808;
+  --paper:     #EDEAE4;
+  --surface:   #101010;
+  --night:     #080808;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  background-color: #080808;
+  color: #EDEAE4;
+}
+
+/* ── Entrance animation ── */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.animate-fadeUp {
+  opacity: 0;
+  animation: fadeUp 0.75s cubic-bezier(0.2, 0.8, 0.3, 1) forwards;
+}
+
+/* ── Marquee ── */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee 28s linear infinite;
+  will-change: transform;
+}
+
+/* ── Tilt utilities ── */
+.tilt-l  { transform: rotate(-4deg); }
+.tilt-r  { transform: rotate(3deg);  }
+.tilt-ll { transform: rotate(-8deg); }
+.tilt-rr { transform: rotate(7deg);  }
+
+/* ── Rhythm card hover reveal ── */
+.rhythm-card {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.25s cubic-bezier(0.2, 0.7, 0.3, 1);
+}
+.rhythm-card:hover { transform: translateY(-4px); }
+.rhythm-card .rhythm-reveal {
+  position: absolute;
+  inset: 0;
+  background: var(--co-yellow);
+  color: #080808;
+  padding: 28px;
+  opacity: 0;
+  transform: translateY(8%);
+  transition: opacity 0.28s ease, transform 0.28s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.rhythm-card:hover .rhythm-reveal {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ── Tape strip ── */
+.tape {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.12);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+  pointer-events: none;
+}
+
+/* ── Accent button ── */
+.btn-accent {
+  background: #f1aa08;
+  transition: background 0.2s, color 0.2s;
+}
+.btn-accent:hover {
+  background: #ec7c0d;
+}
+
+/* ── Custom cursor ── */
+.cursor-blob {
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  mix-blend-mode: difference;
+  background: var(--co-yellow);
+  transition: transform 0.12s ease, width 0.2s, height 0.2s, background 0.2s;
+  transform: translate(-50%, -50%);
+}
+.cursor-blob.over-link {
+  width: 60px;
+  height: 60px;
+  background: #ffffff;
+}
