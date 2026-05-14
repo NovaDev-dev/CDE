@@ -1,5 +1,5 @@
 const details = [
-  { label: "Date",     value: "Check the event link"        },
+  { label: "Date",     value: "Friday, May 22"               },
   { label: "Venue",    value: "SpanicArts · Calgary, AB"   },
   { label: "Format",   value: "Classes + Dance Social"     },
   { label: "Price",    value: "$15 CAD"                    },
@@ -79,9 +79,14 @@ export default function Tickets() {
                   ))}
                 </ul>
 
-                <span className="block w-full btn-accent text-night/40 font-condensed text-center py-4 text-3xl tracking-wider cursor-not-allowed select-none">
-                  Coming Soon
-                </span>
+                <a
+                  href="https://www.eventbrite.com/e/colombian-dance-experience-tickets-1988943192630"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block w-full btn-accent text-night font-condensed text-center py-4 text-3xl tracking-wider"
+                >
+                  Get Tickets
+                </a>
 
                 <p className="font-mono text-[10px] text-center text-cream/20 tracking-[0.25em] uppercase mt-4">
                   SpanicArts · Calgary

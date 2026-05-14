@@ -54,9 +54,14 @@ export default function Hero() {
           className="animate-fadeUp flex gap-4 flex-wrap justify-center mb-10"
           style={{ animationDelay: "560ms" }}
         >
-          <span className="btn-accent text-night/40 font-condensed text-2xl px-10 py-3 tracking-wide cursor-not-allowed select-none">
-            Coming Soon
-          </span>
+          <a
+            href="https://www.eventbrite.com/e/colombian-dance-experience-tickets-1988943192630"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-accent text-night font-condensed text-2xl px-10 py-3 tracking-wide"
+          >
+            Get Tickets
+          </a>
           <a
             href="#rhythms"
             data-link=""
