@@ -1,5 +1,5 @@
 const details = [
-  { label: "Date",     value: "Friday, May 22"               },
+  { label: "Date",     value: "Friday, June 12"               },
   { label: "Venue",    value: "SpanicArts · Calgary, AB"   },
   { label: "Format",   value: "Classes + Dance Social"     },
   { label: "Price",    value: "$15 CAD"                    },
@@ -80,7 +80,7 @@ export default function Tickets() {
                 </ul>
 
                 <a
-                  href="https://www.eventbrite.com/e/colombian-dance-experience-tickets-1988943192630"
+                  href="https://www.eventbrite.com/e/colombian-dance-experience-tickets-1991418071058"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block w-full btn-accent text-night font-condensed text-center py-4 text-3xl tracking-wider"

@@ -55,7 +55,7 @@ export default function Hero() {
           style={{ animationDelay: "560ms" }}
         >
           <a
-            href="https://www.eventbrite.com/e/colombian-dance-experience-tickets-1988943192630"
+            href="https://www.eventbrite.com/e/colombian-dance-experience-tickets-1991418071058"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-accent text-night font-condensed text-2xl px-10 py-3 tracking-wide"
