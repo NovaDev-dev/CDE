@@ -1,27 +1,25 @@
-import { CustomCursor } from "@/components/cde/primitives/CustomCursor";
-import Nav         from "@/components/cde/Nav";
-import Hero        from "@/components/cde/Hero";
-import Marquee     from "@/components/cde/Marquee";
-import Rhythms     from "@/components/cde/Rhythms";
-import Instructors from "@/components/cde/Instructors";
-import Gallery     from "@/components/cde/Gallery";
-import Tickets     from "@/components/cde/Tickets";
-import Footer      from "@/components/cde/Footer";
+import Nav from "@/components/Nav";
+import Hero from "@/components/Hero";
+import Program from "@/components/Program";
+import Schedule from "@/components/Schedule";
+import Instructors from "@/components/Instructors";
+import Events from "@/components/Events";
+import Tickets from "@/components/Tickets";
+import Gallery from "@/components/Gallery";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <>
-      <CustomCursor />
-      <main>
-        <Nav />
-        <Hero />
-        <Marquee />
-        <Rhythms />
-        <Instructors />
-        <Gallery />
-        <Tickets />
-        <Footer />
-      </main>
-    </>
+    <main className="overflow-x-hidden">
+      <Nav />
+      <Hero />
+      <Program />
+      <Gallery />
+      <Schedule />
+      <Instructors />
+      <Tickets />
+      <Events />
+      <Footer />
+    </main>
   );
 }
