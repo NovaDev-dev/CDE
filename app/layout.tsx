@@ -8,7 +8,7 @@ const dmSans  = DM_Sans({ subsets: ["latin"], variable: "--font-dmsans", display
 export const metadata: Metadata = {
   title: "CDE — Colombian Dance Experience",
   description:
-    "A four-week Colombian cultural training program in Calgary. Salsa caleña, Afro, champeta and batida.",
+    "A four-week Colombian cultural training program in Calgary. Salsa caleña, Afro, champeta and salsa fusion.",
   icons: { icon: "/favicon.ico" },
   openGraph: {
     title: "CDE — Colombian Dance Experience",

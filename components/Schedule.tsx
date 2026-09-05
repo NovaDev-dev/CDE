@@ -11,9 +11,9 @@ export default function Schedule() {
           title="The week"
           meta={
             <>
-              Wednesdays and Saturdays
+              Thursdays
               <br />
-              Exact times to be confirmed
+              6:30 — 8:30 PM
             </>
           }
         />

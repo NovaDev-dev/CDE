@@ -23,7 +23,7 @@ export default function Program() {
               of Colombia
             </SectionTitle>
             <p className="mb-12 font-body text-[11px] font-medium uppercase tracking-[0.2em] text-cream/45 lg:mb-[68px]">
-              4 weeks · 2 sessions a week · 2 hours each · open level 
+              4 weeks · 1 session a week · 2 hours each · open level 
             </p>
           </Shell>
 
@@ -50,15 +50,6 @@ export default function Program() {
               </div>
             </Shell>
           </div>
-        </div>
-      </div>
-
-      <div className="border-t border-rule bg-flagYellow text-ink">
-        <div className="mx-auto grid max-w-shell items-center gap-5 px-5 py-9 text-center sm:px-8 lg:grid-cols-[200px_1fr] lg:gap-12 lg:px-11 lg:text-left">
-          <p className="font-display text-[36px] font-bold uppercase leading-none sm:text-[44px]">"Batida"</p>
-          <p className="mx-auto max-w-[64ch] text-[17px] font-medium sm:text-[19px] lg:mx-0">
-            A rhythm where the two of us fuse Salsa with Afro, Champeta and Salsa Choque.
-          </p>
         </div>
       </div>
     </section>

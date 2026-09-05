@@ -29,8 +29,7 @@ export const arc = [
 ];
 
 export const schedule = [
-  { day: "Wed", what: "Session 1 — Salsa caleña into batida", level: "Open level", time: "7:00 — 9:00 PM", teacher: "Juan & Sebas", accent: YELLOW },
-  { day: "Sat", what: "Session 2 — Afro, champeta, choque", level: "Open level", time: "5:00 — 7:00 PM", teacher: "Juan & Sebas", accent: BLUE },
+  { day: "Thu", what: "Salsa caleña into salsa fusion, then afro, champeta & choque", level: "Open level", time: "6:30 — 8:30 PM", teacher: "Juan & Sebas", accent: YELLOW },
 ];
 
 export const performancePhotos = [
@@ -74,10 +73,10 @@ export const passes = [
     featured: true,
     kicker: "The full experience",
     name: "Four-week program",
-    price: "$150",
-    per: "8 sessions · 16 hours",
+    price: "$85",
+    per: "4 sessions · 8 hours",
     items: [
-      "All rhythms, every week",
+      "All rhythms in one class, every week",
       "Cultural context, technique and musicality",
       "The full arc from foundations to the fusion",
       "Same room, same people, four weeks",
@@ -122,9 +121,8 @@ export const gallery: Array<{
 
 export const details = [
   { k: "Studio", v: "SpanicArts · Calgary" },
-  { k: "Wednesdays", v: "7–9 PM" },
-  { k: "Saturdays", v: "5–7 PM" },
-  { k: "Program length", v: "4 weeks · 8 sessions" },
+  { k: "Thursdays", v: "6:30–8:30 PM" },
+  { k: "Program length", v: "4 weeks · 4 sessions" },
 ];
 
 export const socials = [
