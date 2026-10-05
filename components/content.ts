@@ -29,7 +29,7 @@ export const arc = [
 ];
 
 export const schedule = [
-  { day: "Thu", what: "Salsa caleña into salsa fusion, then afro, champeta & choque", level: "Open level", time: "6:30 — 8:30 PM", teacher: "Juan & Sebas", accent: YELLOW },
+  { day: "Sun", what: "Salsa caleña into salsa fusion, then afro, champeta & choque", level: "Open level", time: "5 — 7 PM", teacher: "Juan & Sebas", accent: YELLOW },
 ];
 
 export const performancePhotos = [
@@ -121,7 +121,7 @@ export const gallery: Array<{
 
 export const details = [
   { k: "Studio", v: "SpanicArts · Calgary" },
-  { k: "Thursdays", v: "6:30–8:30 PM" },
+  { k: "Sundays", v: "5–7 PM" },
   { k: "Program length", v: "4 weeks · 4 sessions" },
 ];
 

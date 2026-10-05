@@ -16,7 +16,7 @@ export default function Hero() {
             <span className="block text-heroRed lg:pl-[0.32em]">of Colombia</span>
           </h1>
           <p className="mx-auto mb-9 max-w-[41ch] text-[17px] leading-[1.55] text-cream/70 [text-wrap:pretty] sm:mb-11 sm:text-[19px] lg:mx-0">
-            A four-week cultural training program. Thursdays, 6:30 to 8:30 PM. Juan opens with salsa
+            A four-week cultural training program. Sundays, 5 to 7 PM. Juan opens with salsa
             caleña, then Sebas takes over with salsa choque, champeta and Afro. Everyone dances both, and then, we fusion all in one.
           </p>
           <div className="flex flex-wrap justify-center gap-[14px] lg:justify-start">

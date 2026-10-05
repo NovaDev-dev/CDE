@@ -11,9 +11,9 @@ export default function Schedule() {
           title="The week"
           meta={
             <>
-              Thursdays
+              Sundays
               <br />
-              6:30 — 8:30 PM
+              5 — 7 PM
             </>
           }
         />
