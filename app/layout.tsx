@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
-import { Antonio, DM_Sans } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
 
-const antonio = Antonio({ subsets: ["latin"], weight: ["400", "600", "700"], variable: "--font-antonio", display: "swap" });
-const dmSans  = DM_Sans({ subsets: ["latin"], variable: "--font-dmsans", display: "swap" });
+// Self-hosted (Google Fonts latin subset, variable weight) so builds are deterministic —
+// next/font/google produced mismatched class hashes between HTML and CSS on Vercel.
+const antonio = localFont({ src: "./fonts/Antonio-Variable.woff2", weight: "400 700", variable: "--font-antonio", display: "swap" });
+const dmSans  = localFont({ src: "./fonts/DMSans-Variable.woff2", weight: "100 1000", variable: "--font-dmsans", display: "swap" });
 // Splatink by Måns Grebäck, the CDE brand script. Personal-use build; see mansgreback.com/product/splatink for licensing.
 const splat   = localFont({ src: "./fonts/Splatink_PERSONAL_USE_ONLY.woff", variable: "--font-splat", display: "swap" });
 
