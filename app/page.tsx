@@ -1,6 +1,7 @@
 import Nav from "@/components/Nav";
 import Hero from "@/components/Hero";
 import Program from "@/components/Program";
+import Venues from "@/components/Venues";
 import Schedule from "@/components/Schedule";
 import Instructors from "@/components/Instructors";
 import Events from "@/components/Events";
@@ -14,6 +15,7 @@ export default function Home() {
       <Nav />
       <Hero />
       <Program />
+      <Venues />
       <Gallery />
       <Schedule />
       <Instructors />

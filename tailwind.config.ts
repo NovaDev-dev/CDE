@@ -24,6 +24,7 @@ const config: Config = {
       fontFamily: {
         display: ["var(--font-antonio)", "Antonio", "sans-serif"],
         body: ["var(--font-dmsans)", "DM Sans", "sans-serif"],
+        splat: ["var(--font-splat)", "cursive"],
       },
       maxWidth: { shell: "1360px" },
     },

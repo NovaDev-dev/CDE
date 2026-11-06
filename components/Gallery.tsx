@@ -7,7 +7,7 @@ export default function Gallery() {
     <section id="salon" className="border-b border-rule bg-inkAlt">
       <Shell className="py-[104px]">
         <div className="mb-12 text-center sm:mb-14 sm:text-left">
-          <Kicker className="mb-[22px]">LA GALERIA</Kicker>
+          <Kicker className="mb-[22px]">La galería</Kicker>
           <SectionTitle>passion, floors, sweat</SectionTitle>
         </div>
         <div className="grid grid-cols-2 auto-rows-[120px] gap-3 [grid-auto-flow:dense] sm:auto-rows-[150px] sm:gap-4 lg:grid-cols-4 lg:auto-rows-[190px]">

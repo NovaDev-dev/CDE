@@ -4,10 +4,21 @@ import { ButtonFilled, ButtonOutline } from "./primitives/Type";
 
 export default function Hero() {
   return (
-    <section id="top" className="relative overflow-hidden border-b border-rule">
-      <div className="mx-auto grid max-w-shell grid-cols-1 items-center gap-10 px-5 pt-14 sm:px-8 sm:gap-14 lg:grid-cols-[minmax(0,1.02fr)_minmax(0,1fr)] lg:px-11 lg:pt-[100px]">
+    <section id="top" className="relative isolate overflow-hidden border-b border-rule">
+      {/* Background photo, darkened so the headline and copy stay legible */}
+      <Image
+        src="/images/hero/hero.jpg"
+        alt=""
+        fill
+        priority
+        sizes="100vw"
+        className="-z-10 object-cover"
+      />
+      <div className="absolute inset-0 -z-10 bg-gradient-to-r from-ink/90 via-ink/70 to-ink/50" />
+
+      <div className="relative mx-auto grid max-w-shell grid-cols-1 items-center gap-10 px-5 pt-14 sm:px-8 sm:gap-14 lg:grid-cols-[minmax(0,1.02fr)_minmax(0,1fr)] lg:px-11 lg:pt-[100px]">
         <div className="min-w-0 pb-0 text-center lg:pb-[92px] lg:text-left">
-          <p className="mb-10 font-body text-[11px] font-medium uppercase tracking-[0.3em] text-white">
+          <p className="mb-8 font-splat text-[26px] leading-none text-cream sm:text-[32px]">
             Escuela de baile · Calgary, AB
           </p>
           <h1 className="mb-9 font-display text-[clamp(56px,7.8vw,118px)] font-bold uppercase leading-[0.86] tracking-[-0.005em]">
@@ -16,12 +27,13 @@ export default function Hero() {
             <span className="block text-heroRed lg:pl-[0.32em]">of Colombia</span>
           </h1>
           <p className="mx-auto mb-9 max-w-[41ch] text-[17px] leading-[1.55] text-cream/70 [text-wrap:pretty] sm:mb-11 sm:text-[19px] lg:mx-0">
-            A four-week cultural training program. Sundays, 5 to 7 PM. Juan opens with salsa
-            caleña, then Sebas takes over with salsa choque, champeta and Afro. Everyone dances both, and then, we fusion all in one.
+            A four-week program in two rooms. Thursdays at Tropical YYC for the party, Sundays at
+            SpanicArts for the technique, 5 to 7 PM. Juan brings salsa caleña, Sebas brings choque, champeta
+            and Afro, and then we fusion it all in one.
           </p>
           <div className="flex flex-wrap justify-center gap-[14px] lg:justify-start">
             <ButtonFilled href="#pases">Join the program</ButtonFilled>
-            <ButtonOutline href="#programa">How it works</ButtonOutline>
+            <ButtonOutline href="#clases">The two classes</ButtonOutline>
           </div>
         </div>
 

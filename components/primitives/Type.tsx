@@ -13,10 +13,10 @@ export function isRealDestination(href?: string) {
   return !!href && !href.startsWith("#");
 }
 
-/** Section kicker — 11px, 0.3em tracking, uppercase, yellow. */
+/** Section kicker — Splatink brand script, 26→32px, yellow. */
 export function Kicker({ children, className = "" }: { children: ReactNode; className?: string }) {
   return (
-    <p className={`font-body text-[11px] font-medium uppercase tracking-[0.3em] text-flagYellow ${className}`}>
+    <p className={`font-splat text-[26px] leading-none text-flagYellow sm:text-[32px] ${className}`}>
       {children}
     </p>
   );

@@ -23,14 +23,14 @@ export default function Program() {
               of Colombia
             </SectionTitle>
             <p className="mb-12 font-body text-[11px] font-medium uppercase tracking-[0.2em] text-cream/45 lg:mb-[68px]">
-              4 weeks · 1 session a week · 2 hours each · open level 
+              4 weeks · Thursdays & Sundays · 2 hours each · open level
             </p>
           </Shell>
 
           <div className="border-t border-rule">
             <Shell>
               <p className="pt-[30px] text-center font-body text-[10px] font-medium uppercase tracking-[0.24em] text-cream/40 lg:text-left">
-                Every session follows the same arc
+                Every SpanicArts session follows the same arc
               </p>
               <div className="grid grid-cols-2 gap-y-8 pb-11 pt-[34px] lg:grid-cols-4 lg:gap-y-0">
                 {arc.map((a, i) => (

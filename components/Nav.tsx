@@ -11,8 +11,8 @@ export default function Nav() {
     <div className="sticky top-0 z-[60] border-b border-rule bg-ink/[0.92] backdrop-blur-[10px]">
       <div className="mx-auto flex h-16 max-w-shell items-center justify-between gap-6 px-5 sm:h-20 sm:px-8 lg:px-11">
         <a href="#top" className="flex shrink-0 items-center gap-[13px]" onClick={() => setOpen(false)}>
-          <Image src="/images/logo.png" alt="CDE" width={140} height={48} className="h-9 w-auto sm:h-12" priority />
-          <span className="font-display text-[22px] font-bold uppercase leading-none sm:text-[27px]">CDE</span>
+          <Image src="/images/logo.png" alt="" width={140} height={48} className="h-9 w-auto sm:h-12" priority />
+          <span className="font-splat text-[26px] leading-none text-cream sm:text-[34px]">ColDanceExp</span>
         </a>
 
         {/* Desktop links */}
